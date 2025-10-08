@@ -1,0 +1,12 @@
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+    df = diff
+    lg = log --oneline --decorate --all --graph
+    recent = log --oneline -n 5
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    who = shortlog -s -n
+    visual = !gitk
