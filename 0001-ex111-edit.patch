@@ -1,0 +1,19 @@
+From e75c07848b59bc4a353168078d245d796dbbe0c3 Mon Sep 17 00:00:00 2001
+From: Danila Egorkin <93032618+elmore17@users.noreply.github.com>
+Date: Wed, 8 Oct 2025 19:37:58 +0300
+Subject: [PATCH 1/4] ex111 edit
+
+---
+ person1/ex1.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/person1/ex1.py b/person1/ex1.py
+index 92beb78..6e045ce 100644
+--- a/person1/ex1.py
++++ b/person1/ex1.py
+@@ -1 +1 @@
+-print('hi1')
++print('hi111')
+-- 
+2.39.5 (Apple Git-154)
+
