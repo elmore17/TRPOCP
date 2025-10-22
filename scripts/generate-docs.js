@@ -174,8 +174,8 @@ const projectInfo = {
   version: process.env.npm_package_version || "1.0.0",
   lastUpdated: new Date().toISOString(),
   testSuites: {
-    unit: ["math.test.js", "string.test.js"],
-    integration: ["api.test.js", "database.test.js"]
+    unit: ["math.test.js"],
+    integration: ["api.test.js"]
   },
   workflows: [".github/workflows/main.yml"]
 };
