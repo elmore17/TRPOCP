@@ -11,3 +11,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: Setup
       run: echo "Hello World"
+    - name: Run tests
+      run: npm test
+    - name: Run integration tests
+      run: npm run integration-test
