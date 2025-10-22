@@ -11,5 +11,13 @@
   },
   "devDependencies": {
     "jest": "^29.0.0"
-  }
+  },
+  "keywords": [
+    "ci-cd",
+    "github-actions",
+    "testing",
+    "automation"
+  ],
+  "author": "Egorkin Danila",
+  "license": "MIREA"
 }
