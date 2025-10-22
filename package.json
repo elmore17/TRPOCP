@@ -1,6 +1,14 @@
 {
+  "name": "ci-cd-demo",
+  "version": "1.0.0",
   "scripts": {
-    "test": "jest",
-    "integration-test": "node tests/integration.js"
+    "test": "jest --config jest.config.js",
+    "integration-test": "jest --config jest.integration.config.js",
+    "test:all": "npm test && npm run integration-test",
+    "build": "mkdir -p dist && echo 'Build complete' > dist/build.txt",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
   }
 }
