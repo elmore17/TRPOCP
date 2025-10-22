@@ -6,7 +6,8 @@
     "integration-test": "jest --config jest.integration.config.js",
     "test:all": "npm test && npm run integration-test",
     "build": "mkdir -p dist && echo 'Build complete' > dist/build.txt",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "docs": "node scripts/generate-docs.js"
   },
   "devDependencies": {
     "jest": "^29.0.0"
