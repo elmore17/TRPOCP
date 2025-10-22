@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "test": "jest",
+    "integration-test": "node tests/integration.js"
+  }
+}
