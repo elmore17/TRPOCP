@@ -15,3 +15,7 @@ jobs:
       run: npm test
     - name: Run integration tests
       run: npm run integration-test
+    - name: Generate docs
+      run: |
+        npm run docs
+        cp -r generated-docs/ public/
