@@ -1,1 +1,1 @@
-console.log('Hello, ............//////hgh/')
+console.log('Hello, ............///////')
